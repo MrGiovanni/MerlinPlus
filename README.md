@@ -10,7 +10,7 @@ Planned release:
 - **Radiologist-made tumor segmentation masks**: soon
 
 ## Paper:
-Comming soon!
+Coming soon!
 
 ## Citation:
 If you use the code, data or methods in this repository, please cite all paper below:
