@@ -1,8 +1,6 @@
 # MerlinPlus
 [MICCAI 2026] Merlin Plus
 
-coming in June 2026.
-
 Planned release:
 
 - **AI-made organ segmentation masks** (used to train R-Super): **released** at https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
