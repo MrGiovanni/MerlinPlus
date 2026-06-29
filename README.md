@@ -13,7 +13,7 @@ Planned release:
 Coming soon!
 
 ## Citation:
-If you use the code, data or methods in this repository, please cite all paper below:
+If you use the code, data or methods in this repository, please cite all papers below:
 
 ```
 @article{bassi2025scaling,
