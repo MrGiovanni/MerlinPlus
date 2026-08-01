@@ -3,6 +3,7 @@
 
 Planned release:
 
+- **CT scans and reports**: released in the [original Merlin dataset](https://stanfordaimi.azurewebsites.net/datasets/60b9c7ff-877b-48ce-96c3-0194c8205c40)
 - **AI-made organ segmentation masks** (used to train R-Super): **released** at https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
 - **Longitudinal metadata**: **released** in [merlin_longitudinal_metadata.csv](merlin_longitudinal_metadata.csv) in this repository. This metadata provides de-identified patient IDs and examination dates, enabling you to identify CT scans from the same patient and calculate the time interval between examinations. It therefore supports *longitudinal model training and evaluation*. We additionally provide de-identified patient age, race, sex, scanner manufacturer and model, CT voxel spacing, contrast status, contrast phase, kVp, and X-ray tube current.
 - **Radiologist-made tumor segmentation masks**: to be released soon, please contact psalvad2@jh.edu for early access.
