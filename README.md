@@ -10,7 +10,7 @@ Planned release:
 - **MerlinSeg: a multi-tumor segmentation model trained on Merlin Plus**; to be released soon, please contact psalvad2@jh.edu for early access.
 
 ## Paper:
-Coming soon!
+MICCAI 2026, coming soon!
 
 ## Citation:
 If you use the code, data or methods in this repository, please cite all papers below:
