@@ -97,7 +97,7 @@ MICCAI 2025 <br/>
 <a href='https://link.springer.com/chapter/10.1007/978-3-032-04971-1_29'><img src='https://img.shields.io/badge/Paper-PDF-purple'></a><a href='https://link.springer.com/chapter/10.1007/978-3-032-04971-1_29'><img src='https://img.shields.io/badge/Springer-Link-orange'></a>
 
 <p align="center">
-  <img src="https://github.com/MrGiovanni/R-Super/raw/main/document/miccai_2025_best_paper_award.png"
+  <img src="https://github.com/MrGiovanni/R-Super/raw/main/documents/miccai_2025_best_paper_award.png"
        alt="Prize"
        width="400">
 </p>
