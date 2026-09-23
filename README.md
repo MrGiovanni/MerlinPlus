@@ -124,8 +124,9 @@ Louis Blankemeier, Joseph Paul Cohen, Ashwin Kumar, Dave Van Veen, Syed Jamal Sa
 - **Download the Organ and Tumor Masks**: https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
 
 ```bash
-pip install -U huggingface_hub
-hf download AbdomenAtlas/MerlinPlus --repo-type dataset --local-dir ./MerlinPlus
+pip install -U "huggingface_hub>=0.34"
+hf download AbdomenAtlas/MerlinPlus --repo-type dataset --local-dir ./MerlinPlusCompressed
+bash MerlinPlusCompressed/unzip.sh --archive_dir MerlinPlusCompressed --out_dir MerlinPlus --workers 6
 ```
 
 
