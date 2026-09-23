@@ -24,7 +24,7 @@ Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/Abdomen
 
  All confirmed malignant tumors were annotated, plus over 200 benigns. Unnanotated tumors encompass other benign tumors and cases where we could not confirm malignancy or radiolgists could not clearly see the tumor.
 
-**Organ Masks**: created by AI models trained on more than 14,000 CT scans at Johns Hopkins University. Merlin Plus includes per-voxel annotations for organs, blood vessels, organ parts (liver and pancreas sub-segments), and ducts.
+**Organ Masks**: created by AI models trained on more than 14,000 CT scans at Johns Hopkins University. Merlin Plus includes per-voxel annotations for **organs, blood vessels, organ parts** (liver and pancreas sub-segments), and ducts.
 
 <details>
 <summary style="margin-left: 25px;">Organ List</summary>
