@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="documents/tumor_examples.png" alt="Examples of tumor annotations in Merlin Plus" width="100%">
+  <img src="document/tumor_examples.png" alt="Examples of tumor annotations in Merlin Plus" width="100%">
 </p>
 
 <a href="https://github.com/MrGiovanni/MerlinPlus"><img src="https://img.shields.io/badge/Git-Hub-purple" alt="GitHub"></a>
@@ -15,7 +15,7 @@ Merlin Plus is part of a collaboration between the Merlin Project at Stanford an
 **Tumor Masks**: created by radiologists. They cover tumors in 9 organs, most of which were unavailable in previous segmentation datasets.
 
 <p align="center">
-  <img src="documents/tumor_mask_counts.png" alt="Radiologist-created tumor masks by organ; first public masks highlighted" width="100%">
+  <img src="document/tumor_mask_counts.png" alt="Radiologist-created tumor masks by organ; first public masks highlighted" width="100%">
 </p>
 
  All confirmed malignant tumors were annotated, plus over 200 benigns. Unnanotated tumors encompass other benign tumors and cases where we could not confirm malignancy or radiolgists could not clearly see the tumor.
@@ -86,7 +86,7 @@ Merlin Dataset: Merlin Abdominal CT Dataset is an abdominal CT dataset consistin
 Pedro R. A. S. Bassi, Wenxuan Li, Szymon Płotka, Ruby Honjol, Jakub Prządo, Xinze Zhou, Kang Wang, Yang Yang, Malte Jensen, Akshay S. Chaudhari, Curtis P. Langlotz, Alan L. Yuille, and Zongwei Zhou.  
 *MICCAI 2026, LNCS 16895. Springer Nature Switzerland.*  
 <a href="https://papers.miccai.org/miccai-2026/paper/4063_paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-purple" alt="Paper PDF"></a>
-<a href="documents/MICCAI2026-Merlin-Plus.pptx"><img src="https://img.shields.io/badge/Poster-orange" alt="Poster"></a>
+<a href="document/MICCAI2026-Merlin-Plus.pptx"><img src="https://img.shields.io/badge/Poster-orange" alt="Poster"></a>
 
 
 <b>Learning Segmentation from Radiology Reports</b> <br/>
@@ -97,7 +97,7 @@ MICCAI 2025 <br/>
 <a href='https://link.springer.com/chapter/10.1007/978-3-032-04971-1_29'><img src='https://img.shields.io/badge/Paper-PDF-purple'></a><a href='https://link.springer.com/chapter/10.1007/978-3-032-04971-1_29'><img src='https://img.shields.io/badge/Springer-Link-orange'></a>
 
 <p align="center">
-  <img src="https://github.com/MrGiovanni/R-Super/raw/main/documents/miccai_2025_best_paper_award.png"
+  <img src="https://github.com/MrGiovanni/R-Super/raw/main/document/miccai_2025_best_paper_award.png"
        alt="Prize"
        width="400">
 </p>
@@ -131,13 +131,13 @@ hf download AbdomenAtlas/MerlinPlus --repo-type dataset --local-dir ./MerlinPlus
 Merlin Plus provides anonymized patient IDs and scan dates to link CT scans and reports over time. **3,830 patients have two or more scans.**
 
 <p align="center">
-  <img src="documents/longitudinal_statistics.png" alt="Longitudinal cohort statistics, scans per patient, and observation duration" width="100%">
+  <img src="document/longitudinal_statistics.png" alt="Longitudinal cohort statistics, scans per patient, and observation duration" width="100%">
 </p>
 
 The example below shows prostate tumor growth across two time points, with corresponding CT images and radiology reports.
 
 <p align="center">
-  <img src="documents/longitudinal_example.png" alt="Longitudinal prostate tumor example with CT scans and report excerpts 213 days apart" width="100%">
+  <img src="document/longitudinal_example.png" alt="Longitudinal prostate tumor example with CT scans and report excerpts 213 days apart" width="100%">
 </p>
 
 # Improving AI Performance
@@ -147,13 +147,13 @@ The example below shows prostate tumor growth across two time points, with corre
 R-Super was the best performing tumor detection and segmentation model trained on Merlin Plus. R-Super is a novel AI training methodology that uses radiology reports and tumor masks to significantly improve tumor-segmentation AI. Merlin Plus makes R-Super easily reproducible for the medical AI community.
 
 <p align="center">
-  <img src="documents/performance_public_models.png" alt="Merlin Plus R-Super versus public models: detection F1 and segmentation Dice" width="100%">
+  <img src="document/performance_public_models.png" alt="Merlin Plus R-Super versus public models: detection F1 and segmentation Dice" width="100%">
 </p>
 
 **The value of masks: models trained on Merlin Plus surpass models trained on Merlin (no mask) in tumor detection and segmentation.**
 
 <p align="center">
-  <img src="documents/performance_merlin_comparison.png" alt="Detection F1: Merlin Plus R-Super versus Merlin and a classification model" width="100%">
+  <img src="document/performance_merlin_comparison.png" alt="Detection F1: Merlin Plus R-Super versus Merlin and a classification model" width="100%">
 </p>
 
 
