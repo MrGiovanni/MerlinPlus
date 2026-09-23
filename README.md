@@ -112,7 +112,8 @@ MICCAI 2025 <br/>
 <b>Merlin: A Vision Language Foundation Model for 3D Computed Tomography</b> <br/>
 Louis Blankemeier, Joseph Paul Cohen, Ashwin Kumar, Dave Van Veen, Syed Jamal Safdar Gardezi, Magdalini Paschali, Zhihong Chen, Jean-Benoit Delbrouck, Eduardo Reis, Cesar Truyts, Christian Bluethgen, Malte Engmann Kjeldskov Jensen, Sophie Ostmeier, Maya Varma, Jeya Maria Jose Valanarasu, Zhongnan Fang, Zepeng Huo, Zaid Nabulsi, Diego Ardila, Wei-Hung Weng, Edson Amaro Junior, Neera Ahuja, Jason Fries, Nigam H. Shah, Andrew Johnston, Robert D. Boutin, Andrew Wentland, Curtis P. Langlotz, Jason Hom, Sergios Gatidis, Akshay S. Chaudhari  <br/>
 *Stanford University* <br/>
-<a href='https://arxiv.org/pdf/2406.06512v1'><img src='https://img.shields.io/badge/Paper-PDF-purple'></a>
+*Nature, 2026.*  
+<a href='https://www.nature.com/articles/s41586-026-10181-8'><img src='https://img.shields.io/badge/Paper-PDF-purple'></a>
 
 
 # Download
