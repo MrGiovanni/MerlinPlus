@@ -2,12 +2,16 @@
   <img src="document/tumor_examples.png" alt="Examples of tumor annotations in Merlin Plus" width="100%">
 </p>
 
-<a href="https://github.com/MrGiovanni/MerlinPlus"><img src="https://img.shields.io/badge/Git-Hub-purple" alt="GitHub"></a>
+<a href="https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus">
+  <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-yellow">
+</a>
 
 # Merlin Plus
 
 This repository provides Merlin Plus, with **longitdudinal metadata (patient IDs and scan dates) and per-voxel annotations for organs and 9 tumor types** in the 25,494 CT scans of the Merlin dataset (Stanford).
 Merlin Plus is part of a collaboration between the Merlin Project at Stanford and the R-Super Project at Johns Hopkins University. 
+
+Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
 
 
 # Per-voxel Masks for 9 Tumors and 44 organs
@@ -114,7 +118,7 @@ Louis Blankemeier, Joseph Paul Cohen, Ashwin Kumar, Dave Van Veen, Syed Jamal Sa
 
 - **Download the Longitdudinal Metadata (patient IDs and scan dates):** https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus/blob/main/merlin_longitudinal_metadata.csv
 
-- **Download the Organ and Tumor Masks**:
+- **Download the Organ and Tumor Masks**: https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
 
 ```bash
 pip install -U huggingface_hub
