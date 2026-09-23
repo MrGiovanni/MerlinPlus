@@ -12,7 +12,7 @@
 
 # Merlin Plus
 
-This repository provides Merlin Plus, with **longitdudinal metadata (patient IDs and scan dates) and per-voxel annotations for organs and 9 tumor types** in the Merlin dataset (Stanford, 25,494 CT scans).
+This repository provides Merlin Plus, with **longitudinal metadata (patient IDs and scan dates) and per-voxel annotations for organs and 9 tumor types** in the Merlin dataset (Stanford, 25,494 CT scans).
 Merlin Plus is part of a collaboration between the Merlin Project at Stanford and the R-Super Project at Johns Hopkins University. 
 
 Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
@@ -119,7 +119,7 @@ Louis Blankemeier, Joseph Paul Cohen, Ashwin Kumar, Dave Van Veen, Syed Jamal Sa
 
 - **Download the CT Scans and Reports**: https://stanfordaimi.azurewebsites.net/datasets/60b9c7ff-877b-48ce-96c3-0194c8205c40
 
-- **Download the Longitdudinal Metadata (patient IDs and scan dates):** https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus/blob/main/merlin_longitudinal_metadata.csv
+- **Download the Longitudinal Metadata (patient IDs and scan dates):** https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus/blob/main/merlin_longitudinal_metadata.csv
 
 - **Download the Organ and Tumor Masks**: https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
 
