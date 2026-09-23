@@ -125,10 +125,6 @@ pip install -U huggingface_hub
 hf download AbdomenAtlas/MerlinPlus --repo-type dataset --local-dir ./MerlinPlus
 ```
 
->[!NOTE]
->See the [Report Supervision (R-Super) GitHub](https://github.com/MrGiovanni/R-Super) to discover how you can use Merlin Plus to improve **tumor segmentation**!
-
-
 
 # Longitudinal Data
 
@@ -145,6 +141,12 @@ The example below shows prostate tumor growth across two time points, with corre
 </p>
 
 # Improving AI Performance
+
+
+>[!NOTE]
+>See the [Report Supervision (R-Super) GitHub](https://github.com/MrGiovanni/R-Super) to discover how you can use Merlin Plus to improve **tumor segmentation**!
+
+
 
 **Models trained on Merlin Plus surpass previous public AI models in tumor detection and segmentation.**
 
