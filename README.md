@@ -90,7 +90,7 @@ superior mesenteric vein
 # Paper
 
 **Merlin Plus: A Large-Scale, Multi-cancer, Image-Mask-Report Dataset**  
-Pedro R. A. S. Bassi, Wenxuan Li, Szymon Płotka, Ruby Honjol, Jakub Prządo, Xinze Zhou, Kang Wang, Yang Yang, Malte Jensen, Akshay S. Chaudhari, Curtis P. Langlotz, Alan L. Yuille, and Zongwei Zhou.  
+Pedro R. A. S. Bassi†, Wenxuan Li†, Szymon Płotka†, Ruby Honjol, Jakub Prządo, Xinze Zhou, Kang Wang, Yang Yang, Malte Jensen, Akshay S. Chaudhari, Curtis P. Langlotz, Alan L. Yuille, and Zongwei Zhou.  
 *MICCAI 2026, LNCS 16895. Springer Nature Switzerland.*  
 <a href="https://papers.miccai.org/miccai-2026/paper/4063_paper.pdf"><img src="https://img.shields.io/badge/Paper-PDF-purple" alt="Paper PDF"></a>
 <a href="document/MICCAI2026-Merlin-Plus.pptx"><img src="https://img.shields.io/badge/Poster-orange" alt="Poster"></a>
