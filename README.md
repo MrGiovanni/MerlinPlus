@@ -154,7 +154,7 @@ The example below shows prostate tumor growth across two time points, with corre
 
 **Models trained on Merlin Plus surpass previous public AI models in tumor detection and segmentation.**
 
-R-Super was the best performing tumor detection and segmentation model trained on Merlin Plus. R-Super is a novel AI training methodology that uses radiology reports and tumor masks to significantly improve tumor-segmentation AI. Merlin Plus makes R-Super easily reproducible for the medical AI community.
+R-Super was the best performing tumor detection and segmentation model trained on Merlin Plus. R-Super is a novel AI training methodology that uses radiology reports and tumor masks to significantly improve tumor-segmentation AI. Merlin Plus makes R-Super easily reproducible for the medical AI community.  Results below are averaged over the 9 tumor types.
 
 <p align="center">
   <img src="document/performance_public_models.png" alt="Merlin Plus R-Super versus public models: detection F1 and segmentation Dice" width="100%">
