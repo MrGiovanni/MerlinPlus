@@ -6,6 +6,10 @@
   <img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-yellow">
 </a>
 
+<a href="https://github.com/MrGiovanni/MerlinPlus">
+  <img src="https://img.shields.io/badge/GitHub-MerlinPlus-black?logo=github">
+</a>
+
 # Merlin Plus
 
 This repository provides Merlin Plus, with **longitdudinal metadata (patient IDs and scan dates) and per-voxel annotations for organs and 9 tumor types** in the Merlin dataset (Stanford, 25,494 CT scans).
