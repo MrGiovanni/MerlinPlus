@@ -20,13 +20,12 @@ Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/Abdomen
 
 # Per-voxel Masks for 9 Tumors and 44 organs
 
-- **Tumor Masks**: 1,193 masks created by radiologists. They cover tumors in 9 organs, most of which were unavailable in previous segmentation datasets.
+- **Tumor Masks**: 1,193 masks created by radiologists. They cover tumors in 9 organs, most of which were unavailable in previous segmentation datasets. All confirmed malignant tumors were annotated, plus over 200 benigns. Unannotated tumors encompass other benign tumors and cases where we could not confirm malignancy or radiologists could not clearly see the tumor.
 
 <p align="center">
   <img src="document/tumor_mask_counts.png" alt="Radiologist-created tumor masks by organ; first public masks highlighted" width="100%">
 </p>
 
- All confirmed malignant tumors were annotated, plus over 200 benigns. Unnanotated tumors encompass other benign tumors and cases where we could not confirm malignancy or radiolgists could not clearly see the tumor.
 
 - **Organ Masks**: created by AI models trained on more than 14,000 CT scans at Johns Hopkins University. Merlin Plus includes per-voxel annotations for **organs, blood vessels, organ parts** (liver and pancreas sub-segments), and ducts.
 
