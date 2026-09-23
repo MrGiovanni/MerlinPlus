@@ -20,7 +20,7 @@ Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/Abdomen
 
 # Per-voxel Masks for 9 Tumors and 44 organs
 
-**Tumor Masks**: created by radiologists. They cover tumors in 9 organs, most of which were unavailable in previous segmentation datasets.
+- **Tumor Masks**: created by radiologists. They cover tumors in 9 organs, most of which were unavailable in previous segmentation datasets.
 
 <p align="center">
   <img src="document/tumor_mask_counts.png" alt="Radiologist-created tumor masks by organ; first public masks highlighted" width="100%">
@@ -28,7 +28,7 @@ Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/Abdomen
 
  All confirmed malignant tumors were annotated, plus over 200 benigns. Unnanotated tumors encompass other benign tumors and cases where we could not confirm malignancy or radiolgists could not clearly see the tumor.
 
-**Organ Masks**: created by AI models trained on more than 14,000 CT scans at Johns Hopkins University. Merlin Plus includes per-voxel annotations for **organs, blood vessels, organ parts** (liver and pancreas sub-segments), and ducts.
+- **Organ Masks**: created by AI models trained on more than 14,000 CT scans at Johns Hopkins University. Merlin Plus includes per-voxel annotations for **organs, blood vessels, organ parts** (liver and pancreas sub-segments), and ducts.
 
 <details>
 <summary style="margin-left: 25px;">Organ List</summary>
@@ -85,7 +85,7 @@ superior mesenteric vein
 </details>
 
 
-Merlin Dataset: Merlin Abdominal CT Dataset is an abdominal CT dataset consisting of 25,494 scans from 18,317 patients. Each scan is paired with its corresponding radiology report. The dataset includes abdominal and pelvis CT exams conducted between 2012 and 2018 at the Stanford Hospital Emergency Department, selected using CPT codes (72192, 72193, 72194, 74150, 74160, 74170, 74176, 74177, and 74178) through the STARR tool. For each exam, the DICOM series with the largest slice count was converted into NIfTI format, compressing the scans and removing patient-identifiable metadata.
+- **Merlin Dataset**: Merlin Abdominal CT Dataset is an abdominal CT dataset consisting of 25,494 scans from 18,317 patients. Each scan is paired with its corresponding radiology report. The dataset includes abdominal and pelvis CT exams conducted between 2012 and 2018 at the Stanford Hospital.
 
 
 # Paper
