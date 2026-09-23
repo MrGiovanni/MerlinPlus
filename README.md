@@ -8,7 +8,7 @@
 
 # Merlin Plus
 
-This repository provides Merlin Plus, with **longitdudinal metadata (patient IDs and scan dates) and per-voxel annotations for organs and 9 tumor types** in the 25,494 CT scans of the Merlin dataset (Stanford).
+This repository provides Merlin Plus, with **longitdudinal metadata (patient IDs and scan dates) and per-voxel annotations for organs and 9 tumor types** in the Merlin dataset (Stanford, 25,494 CT scans).
 Merlin Plus is part of a collaboration between the Merlin Project at Stanford and the R-Super Project at Johns Hopkins University. 
 
 Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
