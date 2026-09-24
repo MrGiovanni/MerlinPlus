@@ -22,6 +22,11 @@ Merlin Plus is part of a collaboration between the Merlin Project at Stanford an
 
 Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/AbdomenAtlas/MerlinPlus
 
+>[!NOTE]
+>We also release **AI models trained on Merlin Plus** for detecting and segmenting tumors in 9 organs!
+>
+><a href="#improving-ai-performance"><img src="https://img.shields.io/badge/See%20the%20Trained%20Models-2E7D8F?style=for-the-badge" alt="See the trained models"></a>
+
 
 # Per-voxel Masks for 9 Tumors and 44 organs
 
@@ -153,12 +158,23 @@ The example below shows prostate tumor growth across two time points, with corre
 # Improving AI Performance
 
 
->[!NOTE]
->See the [Report Supervision (R-Super) GitHub](https://github.com/MrGiovanni/R-Super) to discover how you can use Merlin Plus to improve **tumor segmentation**!
+**Download AI models trained on Merlin Plus**
+
+<div align="center">
+
+| Name | Model | Weights |
+|:---:|:---:|:---:|
+| 🏆 **Merlin-Super** | R-Super [![GitHub](https://img.shields.io/badge/GitHub-R--Super-181717?style=flat-square&logo=github)](https://github.com/MrGiovanni/R-Super) | [![HF](https://img.shields.io/badge/🤗%20Hugging%20Face-Merlin--Cancer--Super-yellow?style=flat-square)](https://huggingface.co/AbdomenAtlas/Merlin-Cancer-Super) |
+| **Merlin-Net** | nnU-Net [![GitHub](https://img.shields.io/badge/GitHub-nnU--Net-181717?style=flat-square&logo=github)](https://github.com/MIC-DKFZ/nnUNet) | [![HF](https://img.shields.io/badge/🤗%20Hugging%20Face-Merlin--Cancer--Net-yellow?style=flat-square)](https://huggingface.co/AbdomenAtlas/Merlin-Cancer-Net) |
+
+</div>
+
+- We welcome new submissions of models trained on Merlin Plus. Please contact psalvad2@jh.edu.
 
 
 
-**Models trained on Merlin Plus surpass previous public AI models in tumor detection and segmentation.**
+
+**Models trained on Merlin Plus surpass previous public AI models in tumor detection and segmentation**
 
 R-Super was the best performing tumor detection and segmentation model trained on Merlin Plus. R-Super is a novel AI training methodology that uses radiology reports and tumor masks to significantly improve tumor-segmentation AI. Merlin Plus makes R-Super easily reproducible for the medical AI community.  Results below are averaged over the 9 tumor types.
 
@@ -172,7 +188,17 @@ R-Super was the best performing tumor detection and segmentation model trained o
   <img src="document/performance_merlin_comparison.png" alt="Detection F1: Merlin Plus R-Super versus Merlin and a classification model" width="100%">
 </p>
 
+# Postprocess AI Outputs to Match Reports & Active Learning
 
+We include post-processing code that can automatically refine AI-made masks to better match the tumor descriptions in radiology reports. [**See the report-based mask refinement README.**](report_based_mask_refinement/readme.md)
+
+This was used in our report-based active learning strategy. All tumor masks in Merlin Plus were verified/corrected by radiologists.
+
+<p align="center">
+  <img src="document/active_learning.png" alt="Report-based active learning loop: CT-report training, mask creation, report-refined masks, report-confidence score, radiologist revision, and CT-report-mask training" width="100%">
+</p>
+
+**Report-based active learning.** R-Super first learns tumor segmentation from CT-report pairs alone and creates masks for the dataset. These masks are automatically refined to match the tumor count, size, and location in the reports, and each is given a report-confidence score. Radiologists revise the low-score masks, R-Super is retrained with the reports and corrected masks, and the loop repeats.
 
 # Citations
 If you use this data, please cite the papers below (Merlin Plus, R-Super, and Merlin Projects):
