@@ -25,7 +25,7 @@ Merlin Plus is available at HuggingFace: https://huggingface.co/datasets/Abdomen
 >[!NOTE]
 >We also release **AI models trained on Merlin Plus** for detecting and segmenting tumors in 9 organs!
 >
-><a href="#improving-ai-performance"><img src="https://img.shields.io/badge/See%20the%20Trained%20Models-2E7D8F?style=for-the-badge" alt="See the trained models"></a>
+><a href="#download-models"><img src="https://img.shields.io/badge/Download%20Models-2E7D8F?style=for-the-badge" alt="Download Models"></a>
 
 
 # Per-voxel Masks for 9 Tumors and 44 organs
@@ -126,7 +126,7 @@ Louis Blankemeier, Joseph Paul Cohen, Ashwin Kumar, Dave Van Veen, Syed Jamal Sa
 <a href='https://www.nature.com/articles/s41586-026-10181-8'><img src='https://img.shields.io/badge/Paper-PDF-purple'></a>
 
 
-# Download
+# Download Data
 
 - **Download the CT Scans and Reports**: https://stanfordaimi.azurewebsites.net/datasets/60b9c7ff-877b-48ce-96c3-0194c8205c40
 
@@ -155,10 +155,7 @@ The example below shows prostate tumor growth across two time points, with corre
   <img src="document/longitudinal_example.png" alt="Longitudinal prostate tumor example with CT scans and report excerpts 213 days apart" width="100%">
 </p>
 
-# Improving AI Performance
-
-
-**Download AI models trained on Merlin Plus**
+# Download Models
 
 <div align="center">
 
@@ -174,7 +171,7 @@ The example below shows prostate tumor growth across two time points, with corre
 
 
 
-**Models trained on Merlin Plus surpass previous public AI models in tumor detection and segmentation**
+### Models trained on Merlin Plus surpass previous public AI models in tumor detection and segmentation
 
 R-Super was the best performing tumor detection and segmentation model trained on Merlin Plus. R-Super is a novel AI training methodology that uses radiology reports and tumor masks to significantly improve tumor-segmentation AI. Merlin Plus makes R-Super easily reproducible for the medical AI community.  Results below are averaged over the 9 tumor types.
 
