@@ -161,8 +161,8 @@ The example below shows prostate tumor growth across two time points, with corre
 
 | Name | Model | Weights |
 |:---:|:---:|:---:|
-| 🏆 **Merlin-Super** | R-Super [![GitHub](https://img.shields.io/badge/GitHub-R--Super-181717?style=flat-square&logo=github)](https://github.com/MrGiovanni/R-Super) | [![HF](https://img.shields.io/badge/🤗%20Hugging%20Face-Merlin--Cancer--Super-yellow?style=flat-square)](https://huggingface.co/AbdomenAtlas/Merlin-Cancer-Super) |
-| **Merlin-Net** | nnU-Net [![GitHub](https://img.shields.io/badge/GitHub-nnU--Net-181717?style=flat-square&logo=github)](https://github.com/MIC-DKFZ/nnUNet) | [![HF](https://img.shields.io/badge/🤗%20Hugging%20Face-Merlin--Cancer--Net-yellow?style=flat-square)](https://huggingface.co/AbdomenAtlas/Merlin-Cancer-Net) |
+| 🏆 **Merlin-Super** | [![GitHub](https://img.shields.io/badge/GitHub-R--Super-181717?style=flat-square&logo=github)](https://github.com/MrGiovanni/R-Super) | [![HF](https://img.shields.io/badge/🤗%20Hugging%20Face-Merlin--Cancer--Super-yellow?style=flat-square)](https://huggingface.co/AbdomenAtlas/Merlin-Cancer-Super) |
+| **Merlin-Net** | [![GitHub](https://img.shields.io/badge/GitHub-nnU--Net-181717?style=flat-square&logo=github)](https://github.com/MIC-DKFZ/nnUNet) | [![HF](https://img.shields.io/badge/🤗%20Hugging%20Face-Merlin--Cancer--Net-yellow?style=flat-square)](https://huggingface.co/AbdomenAtlas/Merlin-Cancer-Net) |
 
 </div>
 
