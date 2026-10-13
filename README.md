@@ -212,6 +212,14 @@ If you use this data, please cite the papers below (Merlin Plus, R-Super, and Me
     page = {pending}
 }
 
+@article{bassi2026large,
+  title={Large-Scale Multi-Cancer Detection by Learning Segmentation from Reports.},
+  author={Bassi, Pedro RAS and Zhou, Xinze and Li, Wenxuan and P{\l}otka, Szymon and Wasserthal, Jakob and Chen, Jieneng and Hamamci, Ibrahim Ethem and Er, Sezgin and Prz{\k{a}}do, Jakub and Zhu, Zheren and others},
+  journal={Research Square},
+  pages={rs--3},
+  year={2026}
+}
+
 @inproceedings{bassi2025learning,
   title={Learning segmentation from radiology reports},
   author={Bassi, Pedro RAS and Li, Wenxuan and Chen, Jieneng and Zhu, Zheren and Lin, Tianyu and Decherchi, Sergio and Cavalli, Andrea and Wang, Kang and Yang, Yang and Yuille, Alan L and others},
